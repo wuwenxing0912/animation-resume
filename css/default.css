@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.token.selector {
+    color: rgb(150, 150, 150);
+}
+
+.token.function {
+    color: rgb(150, 150, 150);
+}
+
+.token.property {
+    color: rgb(150, 150, 150);
+}
+
+#code {
+    height: 90vh;
+    overflow: auto;
+}
+
+#paperEdit {
+    color: black;
+    padding: 16px;
+    overflow: auto;
+}
+
+p>a {
+    text-decoration: none;
+}
+
+p::before {
+    content: '·';
+}
